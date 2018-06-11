@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>default.vert</file>
+        <file>julia.frag</file>
+    </qresource>
+</RCC>

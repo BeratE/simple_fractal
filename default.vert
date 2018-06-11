@@ -1,0 +1,9 @@
+#version 330 core
+#extension GL_ARB_explicit_uniform_location : enable
+
+layout (location = 0) in vec2 inPos;
+
+void main() {
+    gl_Position = vec4(inPos, 0.0, 1.0);
+}
+
